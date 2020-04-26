@@ -1,0 +1,465 @@
+% !TeX root = Harry.tex
+
+\chapter{Teorema di Bayes}
+\label{capitolo:20}
+
+\emph{Harry fissava in alto il grigio soffitto della piccola stanza, dal letto pieghevole, ma soffice, che era stato messo lì e su cui giaceva. Aveva mangiato parecchi degli spuntini del professor Quirrell — elaborati dolcetti di cioccolato e altri ingredienti, spolverati con spruzza frizzante e ingioiellati con minuscole gemme di zucchero, dall’aspetto estremamente costoso e che si dimostrarono, in effetti, molto saporiti. Harry non si era neppure sentito minimamente in colpa per questo, se l’era guadagnato.}
+
+~\\
+~\\
+
+
+Non aveva provato a dormire. Harry aveva l’impressione che non avrebbe gradito ciò che sarebbe successo quando avesse chiuso gli occhi.
+
+Non aveva provato a leggere. Non sarebbe stato in grado di concentrarsi.
+
+Era buffo come il cervello di Harry sembrasse continuare a girare e girare, senza mai spegnersi, indipendentemente da quanto si stancasse. Diventava più stupido, ma rifiutava di spegnersi.
+
+Ma c’era, era reale e sincera, la sensazione di trionfo.
+
+«Programma anti-Harry-Signore-Oscuro, +1 punto» non iniziava neppure a descriverla. Harry si chiese cosa avrebbe detto ora il Cappello Smistatore, se se lo fosse potuto mettere in testa.
+
+Nessuna meraviglia che il professor Quirrell avesse accusato Harry di aver intrapreso il percorso di un Signore Oscuro. Harry era stato troppo lento di comprendonio, avrebbe dovuto vedere il parallelo subito –
+
+Dovete comprendere che quel giorno il Signore Oscuro non vinse. Il suo scopo era imparare le arti marziali, eppure se ne andò senza una sola lezione.
+
+Harry era entrato nell’aula di Pozioni con lo scopo di imparare Pozioni. Se n’era andato senza una sola lezione.
+
+E il professor Quirrell ne aveva avuto notizia, e aveva compreso con una spaventosa precisione, allungato la mano e tirato via Harry da quel percorso, il percorso che l’avrebbe portato a diventare una copia di Tu-Sai-Chi.
+
+Qualcuno bussò alla porta. «Le lezioni sono terminate», disse la voce tranquilla del professor Quirrell.
+
+Harry si avvicinò alla porta e si scoprì improvvisamente nervoso. Poi la tensione diminuì quando sentì i passi del professor Quirrell che si allontanavano dall’uscio.
+
+A cosa mai sarà dovuto? Si tratta della cosa che alla fine lo farà licenziare?
+
+Harry aprì la porta, e vide che il professor Quirrell si trovava ora a diversi metri di distanza.
+
+Lo sente anche il professor Quirrell?
+
+Camminando attraversarono tutto il palco ormai deserto, fino alla cattedra del professor Quirrell, sulla quale il professore si appoggiò; e Harry, come prima, si fermò a certa distanza dalla pedana.
+
+«Allora», disse il professor Quirrell. C’era un tono amichevole in lui, in qualche modo, anche se il suo volto manteneva la sua solita serietà. «Di cosa voleva parlarmi, signor Potter?»
+
+Ho un misterioso lato oscuro. Ma Harry non poteva semplicemente uscirsene così.
+
+«Professor Quirrell», disse Harry, «ho abbandonato il percorso per diventare un Signore Oscuro, ora?»
+
+Il professor Quirrell osservò Harry. «Signor Potter», disse solennemente, con solo un leggero ghigno, «un modesto consiglio. Ci possono essere interpretazioni troppo perfette. Le persone reali che sono state appena picchiate e umiliate per quindici minuti non si alzano e perdonano benevolmente i loro nemici. È il genere di cose che si fanno quando si sta cercando di convincere tutti che non si è Oscuri, non…–»
+
+«Non ci posso credere! Non può far sì che ogni singola osservazione confermi la sua teoria!»
+
+«E questa indignazione era un filino eccessiva.»
+
+«Cosa diavolo dovrei mai fare per convincerla?»
+
+«Per convincermi che non cova ambizioni di diventare un Signore Oscuro?» disse il professor Quirrell, ora sembrando chiaramente divertito. «Suppongo che potrebbe anche solo alzare la sua mano destra.»
+
+«Cosa?» disse Harry senza comprendere. «Ma posso alzare la mano destra anche se non ho –» Harry si fermò, sentendosi piuttosto stupido.
+
+«Infatti», disse il professor Quirrell. «Può farlo o non farlo con uguale facilità. Non c’è nulla che possa fare per convincermi, perché saprei che è proprio quello che sta cercando di ottenere. E volendo essere ancor più precisi, allora, sebbene supponga che sia minimamente possibile che esistano persone perfettamente buone anche se non ne ho mai incontrata una, è comunque improbabile che qualcuno sia picchiato per quindici minuti e poi si alzi e senta un grande impulso di perdonare benevolmente i suoi aggressori. D’altra parte è meno improbabile che un giovane ragazzo possa immaginarlo come il ruolo da interpretare al fine di convincere il suo insegnante e i suoi compagni di classe che non è il prossimo Signore Oscuro. Il significato di un gesto non sta in ciò che il gesto rappresenta in superficie, signor Potter, ma negli stati d’animo che rendono quel gesto più o meno probabile.»
+
+Harry batté le palpebre. La dicotomia tra l’euristica della rappresentatività e la definizione bayesiana di prova gli era stata appena spiegata da un mago.
+
+«Ma poi del resto», continuò il professor Quirrell, «chiunque può desiderare di fare colpo sui propri amici. Questo non è necessariamente Oscuro. Quindi, senza che si tratti di una confessione, signor Potter, mi risponda onestamente. Che pensiero c’era nella sua mente nel momento in cui ha proibito ogni vendetta? Era un vero impulso al perdono? O era la consapevolezza di come i suoi compagni di classe avrebbero visto il gesto?»
+
+A volte costruiamo il nostro personale canto della fenice.
+
+Ma Harry non lo disse a voce alta. Era chiaro che il professor Quirrell non gli avrebbe creduto, e probabilmente lo avrebbe rispettato di meno per aver cercato di dire una bugia così evidente.
+
+Dopo alcuni momenti di silenzio, il professor Quirrell sorrise soddisfatto. «Che ci creda o meno, signor Potter, non ha bisogno di temermi perché ho scoperto il suo segreto. Non ho intenzione di dirle di rinunciare a diventare il prossimo Signore Oscuro. Se potessi riportare indietro le lancette del tempo e in qualche modo rimuovere quell’ambizione dalla mente del mio io bambino, il me stesso del momento attuale non beneficerebbe dell’alterazione. Poiché per tutto il tempo in cui pensai che quello fosse il mio obiettivo, mi spinse a studiare, a imparare, a perfezionare me stesso, e a diventare più forte. Noi diventiamo ciò che siamo nati per essere seguendo i nostri desideri, ovunque essi conducano. Questa fu l’intuizione di Salazar. Mi chieda di mostrarle la sezione della biblioteca che contiene quegli stessi libri che lessi a tredici anni, e sarò felice di condurla là.»
+
+«Per l’amor del cielo», disse Harry, e si sedette sul duro pavimento di marmo, e poi si distese, fissando le arcate distanti del soffitto. Era il gesto più vicino possibile al crollare dalla disperazione senza farsi male.
+
+«Ancora un po’ troppa indignazione», osservò il professor Quirrell. Harry non stava guardando, ma poté captare nella voce una risata repressa.
+
+Poi Harry comprese.
+
+«In realtà, credo di sapere che cosa la confonde in tutto ciò», disse Harry. «Era di questo che volevo parlarle, in effetti. Professor Quirrell, credo che quello che sta vedendo sia il mio misterioso lato oscuro.»
+
+Ci fu una pausa.
+
+«Il suo… lato oscuro…»
+
+Harry si mise a sedere. Il professor Quirrell lo stava soppesando con una delle espressioni più strane che Harry avesse visto sul volto di chiunque, figurarsi su quello di qualcuno tanto dignitoso quanto il professor Quirrell.
+
+«Succede quando mi arrabbio», spiegò Harry. «Il mio sangue diventa freddo, tutto diventa freddo, tutto sembra perfettamente chiaro… Ripensandoci, mi accade da un bel po’ — nel mio primo anno di scuola babbana, qualcuno cercò di portarmi via la palla durante la ricreazione e io la tenni dietro la schiena e gli diedi un calcio nel plesso solare, che avevo letto essere un punto debole, e dopo gli altri bambini non mi infastidirono più. E diedi un morso a un’insegnante di matematica quando lei non accettò la mia dominanza. Ma è solo da poco che sono stato abbastanza sotto pressione da notare che si tratta di un vero e proprio, sa, misterioso lato oscuro, e non solo un problema di gestione della rabbia, come disse lo psicologo della scuola. E non ho nessun super-potere magico quando questo accade, è stata una delle prime cose che ho controllato.»
+
+Il professor Quirrell si strofinò il naso. «Mi ci lasci pensare.»
+
+Harry aspettò in silenzio per un intero minuto. Usò quel tempo per alzarsi in piedi, cosa che fu più difficile di quanto avesse previsto.
+
+«Bene», il professor Quirrell disse dopo un po’. «Suppongo che ci fosse qualcosa che avrebbe potuto dire e che mi avrebbe convinto.»
+
+«Ho già capito che il mio lato oscuro è in realtà solo un’altra parte di me e che la risposta non è quella di non arrabbiarsi, ma di imparare a mantenere il controllo accettandolo, non sono stupido o cose simili, e ho visto questa storia abbastanza volte da sapere dove sta andando a parare, ma è difficile e lei mi sembra la persona che può aiutarmi.»
+
+«Beh… sì… molto acuto da parte sua, signor Potter, devo riconoscerlo… questo suo lato è, come lei sembra aver già ipotizzato, la sua volontà di uccidere, che come dice è una parte di lei…»
+
+«E ha bisogno di essere addestrata», disse Harry, terminando la frase.
+
+«E ha bisogno di essere addestrata, sì.» Quella strana espressione era ancora sul volto del professor Quirrell. «Signor Potter, se veramente non desidera essere il prossimo Signore Oscuro, allora qual’era l’ambizione che il Cappello Smistatore ha cercato di convincerla ad abbandonare, l’ambizione per la quale è stato smistato in Serpeverde?»
+
+«Sono stato Smistato in Corvonero!»
+
+«Signor Potter», disse il professor Quirrell, ora con un sorriso formale molto più caratteristico, «so che è abituato ad avere intorno a sé solo degli sciocchi, ma la prego di non scambiarmi per uno di loro. La probabilità che il Cappello Smistatore abbia giocato il suo primo scherzo in ottocento anni mentre era sulla sua testa è così piccola da non essere degna di considerazione. Suppongo che sia esiguamente probabile che lei abbia schioccato le dita e abbia inventato un modo semplice e intelligente per sconfiggere gli incantesimi anti-manomissione del Cappello, anche se non me ne viene in mente nessuno. Ma la spiegazione di gran lunga più probabile è che Silente abbia deciso che non era contento della scelta del Cappello per il Ragazzo-Che-È-Sopravvissuto. Questo è evidente a chiunque abbia il più piccolo briciolo di buon senso, così il suo segreto è al sicuro a Hogwarts.»
+
+Harry aprì la bocca, poi la richiuse con un senso di completa impotenza. Il professor Quirrell aveva torto, ma torto in modo talmente convincente che Harry stava cominciando a pensare che semplicemente fosse il giudizio razionale corretto, date le prove a disposizione del professor Quirrell. C’erano occasioni, mai occasioni prevedibili ma comunque alcune occasioni, in cui si ottenevano prove improbabili e la miglior ipotesi conoscibile risultava sbagliata. Se si fosse avuto un esame clinico che sbagliasse solo una volta su mille, in alcune occasioni avrebbe comunque sbagliato.
+
+«Posso chiederle di non ripetere mai ciò che sto per dirle?», fece Harry.
+
+«Assolutamente», rispose il professor Quirrell. «Conti pure sul fatto di avermelo chiesto.»
+
+Neppure Harry era uno sciocco. «Posso contare sul fatto che abbia risposto di sì?»
+
+«Molto bene, signor Potter. Può certamente contarci.»
+
+«Professor Quirrell –»
+
+«Non ripeterò ciò che sta per dirmi», concesse il professor Quirrell, sorridendo.
+
+Risero entrambi, poi Harry divenne nuovamente serio. «Il Cappello Smistatore sembrava pensare che avrei finito per diventare un Signore Oscuro, se non fossi andato a Tassofrasso», disse Harry. «Ma io non voglio diventarlo.»
+
+«Signor Potter…» disse il professor Quirrell. «Non la prenda in maniera sbagliata. Le prometto che non sarà valutato in base alla risposta. Voglio solo sapere la sua personale e onesta risposta. Perché no?»
+
+Harry ebbe nuovamente quella sensazione di impotenza. Non diventare un Signore Oscuro era un teorema talmente evidente nel suo sistema morale, che era difficile descrivere gli effettivi passaggi della sua dimostrazione. «Ehm, perché la gente si farebbe male?»
+
+«Sicuramente avrà voluto far del male a qualcuno», disse il professor Quirrell. «Ha voluto far del male a quei bulli, oggi. Essere un Signore Oscuro significa far del male alle persone a cui lei vuole far del male.»
+
+Harry annaspò alla ricerca della risposta e poi decise di optare semplicemente per quella ovvia. «Prima di tutto, il solo fatto che io voglia fare del male a qualcuno non significa che sia giusto –»
+
+«Cos’è che rende qualcosa giusto, se non il desiderarlo?»
+
+«Ah», disse Harry, «utilitarismo della preferenza.»
+
+«Mi scusi?» chiese il professor Quirrell.
+
+«È la teoria etica secondo la quale il bene è ciò che soddisfa le preferenze del maggior numero di persone –»
+
+«No», disse il professor Quirrell. Le sue dita strofinarono il dorso del suo naso. «Non credo sia proprio quello che stavo cercando di dire. Signor Potter, alla fine, tutte le persone fanno ciò che vogliono fare. A volte le persone danno nomi come ‘diritto’ alle cose che vogliono fare, ma come potremmo agire sulla base di qualcosa se non dei nostri desideri?»
+
+«Beh, ovviamente. Non potrei agire sulla base di considerazioni di ordine morale, se non avessero il potere di influenzarmi. Ma questo non significa che il mio voler far del male a quei Serpeverde abbia il potere di influenzarmi in misura maggiore delle considerazioni di ordine morale!»
+
+Il professor Quirrell sbatté le palpebre.
+
+«Per non parlare del fatto», disse Harry, «che essere un Signore Oscuro vorrebbe dire che anche a molti spettatori innocenti verrebbe fatto del male!»
+
+«Perché questo è importante per lei?» chiese il professor Quirrell. «Che cosa hanno fatto loro per lei?»
+
+Harry rise. «Ah, questo è stato tanto discreto e sottile quanto La rivolta di Atlante.»
+
+«Scusi?» chiese ancora il professor Quirrell.
+
+«È un libro che i miei genitori non mi lasciavano leggere perché pensavano che mi avrebbe corrotto, così naturalmente l’ho letto lo stesso e sono stato offeso che abbiano pensato che sarei caduto in trappole così evidenti. Bla bla bla, appello al mio senso di superiorità, gli altri cercano solo di ostacolarti, bla bla bla.»
+
+«Quindi sta dicendo che ho bisogno di rendere le mie trappole meno evidenti?» disse il professor Quirrell. Si batté un dito sulla guancia, pensieroso. «Posso lavorarci su.»
+
+Risero entrambi.
+
+«Ma per tornare alla questione d’interesse», disse il professor Quirrell, «che cosa hanno fatto tutte queste altre persone per lei?»
+
+«Le altre persone hanno fatto grandi cose per me!» disse Harry. «I miei genitori mi hanno accolto quando i miei genitori sono morti perché erano brave persone, e diventare un Signore Oscuro sarebbe un tradimento!»
+
+Il professor Quirrell rimase in silenzio per un momento.
+
+«Confesso», disse poi tranquillamente, «che quando avevo la sua età, questo pensiero non sarebbe mai potuto venirmi in mente.»
+
+«Mi dispiace», disse Harry.
+
+«Non lo sia», disse il professor Quirrell. «È stato molto tempo fa, e ho risolto i miei problemi parentali con mia soddisfazione. Quindi è trattenuto dal pensiero della disapprovazione dei suoi genitori? Questo vuol dire che se morissero in un incidente, non ci sarebbe nulla che le impedirebbe di –»
+
+«No», disse Harry. «Assolutamente no. È il loro impulso alla gentilezza che mi diede riparo. Questo impulso non esiste solo nei miei genitori. E sarebbe questo impulso a essere tradito.»
+
+«In ogni caso, signor Potter, non ha risposto alla mia domanda iniziale», disse alla fine il professor Quirrell. «Qual è la sua ambizione?»
+
+«Oh», disse Harry. «Uhm…» Organizzò i suoi pensieri. «Sapere tutto ciò che c’è d’importante sull’universo, applicare tale conoscenza per diventare onnipotente, e usare quel potere per riscrivere la realtà, perché ho alcune obiezioni sul modo in cui funziona ora.»
+
+Ci fu una breve pausa.
+
+«Mi perdoni se questa è una domanda stupida, signor Potter», disse il professor Quirrell, «ma è sicuro di non aver appena confessato di voler essere un Signore Oscuro?»
+
+«Questo vale solo se si usa il proprio potere per il male», spiegò Harry. «Se si utilizza il proprio potere per il bene, si è un Signore Luminoso.»
+
+«Capisco», disse il professor Quirrell. Si batté l’altra guancia con un dito. «Suppongo di poter essere d’accordo. Ma signor Potter, mentre l’obiettivo della sua ambizione è degno di Salazar stesso, esattamente come si propone di mettervi mano? Il primo passo consiste nel diventare un grande mago da combattimento, o un Capo Indicibile, o il Ministro della Magia, o –»
+
+«Il primo passo è diventare uno scienziato.»
+
+Il professor Quirrell stava guardando Harry come se si fosse appena trasformato in un gatto.
+
+«Uno scienziato», disse il professor Quirrell dopo un po’.
+
+Harry annuì.
+
+«Uno scienziato?» ripeté il professor Quirrell.
+
+«Sì», disse Harry. «Raggiungerò i miei obiettivi attraverso il potere… della Scienza!»
+
+«Uno scienziato!» disse il professor Quirrell. C’era una genuina indignazione sul suo volto, e la sua voce era diventata più forte e nitida. «Potrebbe essere il migliore di tutti i miei studenti! Il più grande mago da combattimento uscito da Hogwarts in cinquant’anni! Non posso immaginarla sprecare i suoi giorni con un camice bianco a fare cose inutili a dei topi!»
+
+«Ehi» disse Harry. «La scienza è più di questo! Non che ci sia qualcosa di sbagliato nel fare esperimenti con i topi, ovviamente. Ma la scienza è il modo di capire e controllare l’universo –»
+
+«Follia», disse il professor Quirrell, con una voce dal tono amaro. «Lei è uno sciocco, Harry Potter.» Si passò una mano sul viso, e quando quella mano fu passata, il suo viso fu più calmo. «O più probabilmente non ha ancora trovato la sua vera ambizione. Posso consigliarle vivamente di provare a diventare un Signore Oscuro, invece? Farò tutto quello che posso per aiutarla, come pubblico servizio.»
+
+«Non le piace la scienza», disse Harry lentamente. «Perché no?»
+
+«Un giorno quegli stupidi Babbani ci uccideranno tutti!» La voce del professor Quirrell era diventata più forte. «Porranno fine a tutto! A tutto!»
+
+Harry si sentiva un po’ perso a quel punto. «Di cosa stiamo parlando qui, delle armi nucleari?»
+
+«Sì, le armi nucleari!» il professor Quirrell stava quasi gridando ora. «Anche Colui-Che-Non-Deve-Essere-Nominato non le usò mai, quelle, forse perché non voleva governare su di un mucchio di cenere! Non avrebbero mai dovuto essere costruite! E col tempo andrà solo peggio!» Il professor Quirrell stava eretto invece che appoggiato alla cattedra. «Ci sono porte che non si devono aprire, ci sono sigilli che non si devono spezzare! Gli sciocchi che non sanno resistere all’istinto di immischiarsi vengono uccisi dai pericoli minori nelle fasi iniziali, e tutti i sopravvissuti sanno che ci sono segreti che non si condividono con nessuno a cui manchino l’intelligenza e la disciplina per scoprirli da solo! Tutti i maghi potenti lo sanno! Anche i più terribili Maghi Oscuri lo sanno! E quei Babbani idioti non riescono a capirlo! Quei piccoli sciocchi insaziabili che hanno scoperto il segreto delle armi nucleari non l’hanno tenuto per sé, l’hanno detto ai loro sciocchi politici e ora noi dobbiamo vivere sotto la costante minaccia dell’annientamento!»
+
+Era un modo molto diverso di vedere le cose rispetto a quello con cui era cresciuto Harry. Non aveva mai pensato che i fisici nucleari avrebbero dovuto formare una congiura del silenzio per tenere il segreto delle armi nucleari lontano da chiunque non fosse abbastanza intelligente per essere un fisico nucleare. Il pensiero era intrigante, se non altro. Avrebbero avuto parole d’accesso segrete? Avrebbero avuto maschere?
+
+(In realtà, per quanto ne sapeva Harry, ci poteva essere ogni sorta di segreti incredibilmente distruttivi che i fisici avevano tenuto per sé, e il segreto delle armi nucleari sarebbe stato l’unico a essere trapelato. Ai suoi occhi il mondo sarebbe apparso lo stesso in entrambi i casi.)
+
+«Dovrò pensarci», disse Harry al professor Quirrell. «È un’idea nuova per me. E uno dei segreti nascosti della scienza, tramandato da pochi rari maestri ai loro studenti universitari, è come evitare di gettare nuove idee nel gabinetto l’istante che se ne sente una che non ci piace.»
+
+Il professor Quirrell sbatté ancora le palpebre.
+
+«C’è qualche tipo di scienza che approva?» disse Harry. «La medicina, forse?»
+
+«I viaggi nello spazio», disse il professor Quirrell. «Ma i Babbani sembrano tirare per le lunghe l’unico progetto che avrebbe potuto permettere all’umanità magica di fuggire da questo pianeta prima che lo facciano saltare in aria.»
+
+Harry annuì. «Anche io sono un grande sostenitore del programma spaziale. Almeno abbiamo questo in comune.»
+
+Il professor Quirrell guardò Harry. Qualcosa guizzò negli occhi del professore. «Avrò la sua parola, la sua promessa e il suo giuramento di non parlare mai di ciò che segue.»
+
+«Ce li ha», disse Harry immediatamente.
+
+«Veda di rispettare il suo giuramento o non gradirà le conseguenze», disse il professor Quirrell. «Ora lancerò un incantesimo raro e potente, non su di lei, ma sull’aula intorno a noi. Stia fermo, in modo da non toccare i confini dell’incantesimo una volta lanciato. Non dovrà interagire con la magia che sostengo. Osservi soltanto. Altrimenti metterò fine all’incantesimo.» Il professor Quirrell fece una pausa. «E cerchi di non cadere.»
+
+Harry annuì, perplesso e trepidante.
+
+Il professor Quirrell alzò la bacchetta e disse qualcosa che le orecchie e la mente di Harry non poterono afferrare affatto, le parole aggirarono la consapevolezza e svanirono nell’oblio.
+
+Il marmo rimase immutato in un corto raggio intorno ai piedi di Harry. Tutto il resto del pavimento scomparve, le pareti e i soffitti svanirono.
+
+Harry rimase in piedi su un piccolo cerchio di marmo bianco nel bel mezzo di un campo infinito di stelle, che ardevano terribilmente luminose e immote. Non c’era Terra, né Luna, né Sole che Harry riconoscesse. Il professor Quirrell rimase nello stesso posto di prima, galleggiando in mezzo al campo di stelle. La Via Lattea era già visibile come una grande scia di luce e diventava più luminosa mentre la vista di Harry si abituava al buio.
+
+La visione causò una fitta al cuore di Harry come niente che avesse mai visto prima.
+
+«Siamo… nello spazio…?»
+
+«No», disse il professor Quirrell. La sua voce era triste, e riverente. «Ma è un’immagine vera.»
+
+Lacrime apparvero negli occhi di Harry. Le asciugò freneticamente, non si sarebbe perso tutto quello per un po’ di stupida acqua che gli offuscasse la vista.
+
+Le stelle non erano più piccoli gioielli incastonati in una cupola gigante di velluto, come apparivano nel cielo notturno della Terra. Qui non c’era la volta celeste, nessuna sfera circostante. Solo punti di luce perfetta contro il buio perfetto, un nulla infinito e vuoto con innumerevoli piccoli fori attraverso i quali splendeva la brillantezza di un inimmaginabile regno al di là.
+
+Nello spazio, le stelle sembravano terribilmente, terribilmente, terribilmente lontane.
+
+Harry continuò ad asciugarsi gli occhi, più e più volte.
+
+«A volte», disse il professor Quirrell con una voce così sommessa che quasi non c’era, «quando questo mondo imperfetto sembra insolitamente odioso, mi chiedo se ci potrebbe essere qualche altro luogo, lontano, dove sarei dovuto essere. Non riesco a immaginare che cosa quel luogo potrebbe essere, e se non riesco nemmeno a immaginarlo allora come posso credere che esista? Eppure l’universo è così tanto, tanto vasto, che forse potrebbe esistere comunque? Ma le stelle sono così tanto, tanto lontane. Ci vorrebbe un lungo, lungo tempo per arrivarci, anche se conoscessi la strada. E mi chiedo cosa sognerei, se dormissi per molto, molto tempo…»
+
+Anche se sembrò un sacrilegio, Harry riuscì a sussurrare. «Per favore mi faccia stare qui per un po’.»
+
+Il professor Quirrell annuì, da là dove si trovava senza supporto sopra le stelle.
+
+Fu facile dimenticare il piccolo cerchio di marmo su cui si trovava, e il proprio corpo, e diventare un punto di consapevolezza che sarebbe potuto essere fermo, o sarebbe potuto essere in movimento. Con tutte quelle distanze incalcolabili, non c’era modo di dirlo.
+
+Ci fu un tempo senza tempo.
+
+E poi le stelle scomparvero, e l’aula tornò.
+
+«Mi dispiace», disse il professor Quirrell, «ma stiamo per avere compagnia.»
+
+«Va bene», sussurrò Harry. «È stato sufficiente.» Non avrebbe mai dimenticato quel giorno, e non per le cose senza importanza che erano accadute prima. Avrebbe imparato a lanciare quella magia anche se fosse stata l’ultima cosa che avesse mai imparato.
+
+Poi le pesanti porte di quercia dell’aula saltarono dai cardini e scivolarono sul pavimento di marmo con un acuto stridio.
+
+«quirinus! come osi!»
+
+Come una vasta nube temporalesca, un mago antico e potente entrò nella stanza, un’espressione di tale rabbia incandescente sul suo volto che l’occhiata severa che aveva precedentemente rivolto a Harry sembrò innocua.
+
+Ci fu una fitta di disorientamento nella mente di Harry, mentre la parte di lui che voleva scappare via urlando dalla cosa più spaventosa che avesse mai visto scappava, facendo ruotare al suo posto una parte di lui che potesse assorbire il colpo.
+
+Nessuna delle sfaccettature di Harry fu felice che il loro ammirare le stelle fosse stato interrotto. «Preside Albus Percival –» Harry cominciò a dire in tono gelido.
+
+bam. La mano del professor Quirrell colpì duramente la cattedra.«Signor Potter!» Abbaiò il professor Quirrell. «Questo è il Preside di Hogwarts e lei è un semplice studente! Si rivolgerà a lui nel modo appropriato!»
+
+Harry guardò il professor Quirrell.
+
+Il professor Quirrell stava rivolgendo a Harry uno sguardo severo.
+
+Nessuno dei due sorrise.
+
+I lunghi passi di Silente si erano fermati davanti a Harry in piedi di fronte al palco e al professor Quirrell in piedi a fianco alla cattedra. Il Preside fissò sconvolto entrambi.
+
+«Mi dispiace», disse Harry in toni docilmente educati. «Preside, la ringrazio di volermi proteggere, ma il professor Quirrell ha fatto la cosa giusta.»
+
+Lentamente, l’espressione di Silente passò da qualcosa che avrebbe vaporizzato l’acciaio in qualcosa di soltanto arrabbiato. «Ho sentito degli studenti dire che quest’uomo ti ha fatto molestare da Serpeverde più grandi! Che ti ha proibito di difenderti!»
+
+Harry annuì. «Sapeva esattamente cosa non andava in me e mi ha mostrato come risolvere il problema.»
+
+«Harry, che cosa stai dicendo?»
+
+«Gli insegnavo come perdere», disse il professor Quirrell in tono asciutto. «Si tratta di un’abilità importante nella vita.»
+
+Era chiaro che Silente ancora non capiva, ma la sua voce si era abbassata di registro. «Harry…» disse lentamente. «Se c’è qualche minaccia che il Professore di Difesa ti ha fatto per evitare che ti lamentassi –»
+
+Folle, dopo oggi credi davvero che io –
+
+«Preside», disse Harry, cercando di apparire imbarazzato, «ciò che c’è di sbagliato in me non è certo che me ne sto quieto di fronte a professori prevaricatori.»
+
+Il professor Quirrell ridacchiò. «Non è perfetto, signor Potter, ma è abbastanza buono per il suo primo giorno. Preside, è rimasto abbastanza a lungo da sentir parlare dei cinquantuno punti per Corvonero, o è uscito come una furia non appena ha ascoltato la prima parte?»
+
+Una breve espressione di sconcerto passò sul volto di Silente, seguito dalla sorpresa. «Cinquantuno punti per Corvonero?»
+
+Il professor Quirrell annuì. «Non se li aspettava, ma mi è sembrato opportuno. Dica alla professoressa McGonagall che penso che la storia di ciò che il signor Potter ha dovuto subire per riguadagnare i punti persi sarà altrettanto utile a far passare il suo messaggio. No, Preside, il signor Potter non mi ha detto niente. È facile vedere quale parte degli eventi di oggi siano opera della professoressa, proprio come so che il compromesso finale è stato un suo suggerimento, Preside. Anche se mi chiedo come accidenti abbia fatto il signor Potter ad avere la meglio sia su Snape sia su di lei e poi la professoressa McGonagall sia stata in grado di avere la meglio su di lui.»
+
+In qualche modo Harry riuscì a controllare la propria espressione. Una cosa simile era così ovvia per un vero Serpeverde?
+
+Silente si avvicinò a Harry, scrutandolo. «Il tuo colorito sembra un po’ strano, Harry», disse il vecchio mago. Guardò attentamente da vicino il viso di Harry. «Cosa hai mangiato oggi a pranzo?»
+
+«Che cosa?» chiese Harry, la sua mente disorientata per l’improvvisa confusione. Perché Silente avrebbe chiesto dell’agnello fritto e dei broccoli tagliati sottili quando questa era la causa meno probabile –
+
+Il vecchio mago si raddrizzò. «Non importa, allora. Penso che tu stia bene.»
+
+Il professor Quirrell tossì, forte e deliberatamente. Harry guardò verso l’insegnante, e vide che il professor Quirrell stava fissando acutamente Silente.
+
+«Ah-hem!» disse ancora il professor Quirrell.
+
+Silente e il professor Quirrell incrociarono gli sguardi, e qualcosa sembrò passare tra di loro.
+
+«Se non lo dice lei», il professor Quirrell riprese, «lo farò io, anche se mi licenziasse per questo.»
+
+Silente sospirò e si voltò di nuovo verso Harry. «Le chiedo scusa per aver invaso la sua riservatezza mentale, signor Potter», disse formalmente il Preside. «Non ho avuto altro scopo che determinare se il professor Quirrell avesse fatto lo stesso.»
+
+Che cosa?
+
+La confusione durò esattamente il tempo che ci volle a Harry per capire quello che era appena accaduto.
+
+«Tu –!»
+
+«Piano, signor Potter», disse il professor Quirrell. Il suo viso era duro, però, mentre fissava Silente.
+
+«La Legilimanzia è talvolta scambiata per buon senso», disse il Preside. «Ma lascia tracce che un altro Legilimens capace può scoprire. Ho cercato solo questo, signor Potter, e le ho fatto una domanda irrilevante per essere certo che lei non pensasse a nulla di importante mentre guardavo.»
+
+«Avrebbe dovuto chiedermelo prima!»
+
+Il professor Quirrell scosse la testa. «No, signor Potter, il Preside aveva qualche ragione di essere preoccupato, e se avesse chiesto il suo permesso, lei avrebbe pensato proprio alle cose che non voleva che egli vedesse.»
+
+La voce del professor Quirrell divenne più pungente. «Piuttosto, sono maggiormente allarmato, Preside, dal fatto che non abbia sentito la necessità di rivelarglielo, dopo!»
+
+«Ora hai reso più difficile confermare in futuro la sua intimità mentale», disse Silente. Indirizzò al professor Quirrell uno sguardo gelido. «Era questa la tua intenzione, mi chiedo?»
+
+L’espressione del professor Quirrell fu inesorabile. «Ci sono troppi Legilimens in questa scuola. Esigo che il signor Potter riceva un’istruzione in Occlumanzia. Mi permetterà di essere il suo tutore?»
+
+«Assolutamente no», disse immediatamente Silente.
+
+«Non ne dubitavo. Allora poiché lei lo ha privato dei miei servigi gratuiti, lei pagherà per l’addestramento del signor Potter da parte di un istruttore abilitato in Occlumanzia.»
+
+«Tali servigi non sono economici», disse Silente, guardando sorpreso il professor Quirrell. «Sebbene io abbia alcune conoscenze –»
+
+Il professor Quirrell scosse la testa con decisione. «No. Il signor Potter chiederà al gestore del suo conto a Gringotts di raccomandargli un istruttore neutrale. Con tutto il rispetto, preside Silente, dopo gli eventi di questa mattina devo oppormi a che lei o suoi amici abbiate accesso alla mente del signor Potter. Devo anche esigere che l’istruttore pronunci il Voto Infrangibile di non rivelare nulla, e che accetti di essere Obliato immediatamente dopo ciascuna sessione.»
+
+Silente era corrucciato. «Tali servigi sono estremamente costosi, come tu ben sai, e non posso esimermi dal chiedermi perché tu li ritenga necessari.»
+
+«Se il problema è il denaro», intervenne Harry, «ho alcune idee per guadagnare grandi somme in poco tempo –»
+
+«Grazie Quirinus, la tua saggezza è ora molto evidente e sono dispiaciuto di averla messa in discussione. La tua preoccupazione per Harry Potter ti fa onore.»
+
+«La ringrazio. Spero non obietterà se continuerò a renderlo l’oggetto particolare delle mie attenzioni.» Il volto del professor Quirrell era ora molto serio, e decisamente immobile.
+
+Silente guardò Harry.
+
+«È anche il mio desiderio», disse Harry.
+
+«Allora è così che deve essere…» disse lentamente il vecchio mago. Una strana espressione attraversò il suo volto. «Harry… devi capire che se scegli quest’uomo come tuo maestro e tuo amico, come tuo primo mentore, allora in un modo o nell’altro lo perderai, e il modo in cui lo perderai potrebbe o meno permetterti di riaverlo mai indietro.»
+
+A quello Harry non aveva mai pensato. Ma c’era una maledizione sulla cattedra di Difesa… una che apparentemente aveva funzionato con perfetta regolarità per decenni…
+
+«È probabile», disse il professor Quirrell sommessamente, «ma mi avrà a sua completa disposizione finché resisto.»
+
+Silente sospirò. «Suppongo sia economico, quanto meno, dato che come Professore di Difesa tu sei già condannato in qualche modo sconosciuto.»
+
+Harry dovette impegnarsi seriamente per sopprimere la sua espressione quando comprese cosa Silente stava realmente sottintendendo.
+
+«Informerò Madam Pince che il signor Potter è autorizzato a ricevere libri di Occlumanzia», disse Silente.
+
+«C’è un addestramento preliminare che deve compiere da solo», disse il professor Quirrell a Harry. «E le suggerisco di sbrigarsi a farlo.»
+
+Harry annuì.
+
+«Mi congederò da voi, allora», disse Silente. Annuì sia a Harry sia al professor Quirrell, e se ne andò, camminando un po’ lentamente.
+
+«Può lanciare di nuovo quell’incantesimo?» chiese Harry nel momento in cui Silente era uscito.
+
+«Non oggi», disse il professor Quirrell sommessamente, «e neppure domani, temo. Lanciarlo mi sottrae molte forze, seppure ci voglia di meno per sostenerlo, dunque solitamente preferisco sostenerlo il più a lungo possibile. Questa volta l’ho lanciato impulsivamente. Se ci avessi pensato, avrei capito che avremmo potuto essere interrotti –»
+
+Silente era ora la persona meno gradita al mondo per Harry.
+
+Entrambi sospirarono.
+
+«Anche se dovessi vederlo una volta sola», disse Harry, «non potrò mai smettere di esserle grato.»
+
+Il professor Quirrell annuì.
+
+«Ha mai sentito parlare del programma Pioneer?» chiese Harry. «Erano sonde che avrebbero dovuto volare vicino a diversi pianeti e scattare delle foto. Due delle sonde sarebbero finite su traiettorie che le avrebbero portate fuori dal Sistema solare e nello spazio interstellare. Così hanno messo una targa d’oro sulle sonde, con l’immagine di un uomo e di una donna, e l’indicazione di dove trovare il nostro Sole nella galassia.»
+
+Il professor Quirrell tacque per un momento, poi sorrise. «Mi dica, signor Potter, può indovinare quale pensiero ha attraversato la mia mente quando ho finito di assemblare i trentasette punti della lista delle cose che non avrei mai fatto da Signore Oscuro? Si metta nei miei panni — si immagini al posto mio — e indovini.»
+
+Harry si immaginò mentre esaminava l’elenco di trentasette cose da non fare una volta che fosse diventato un Signore Oscuro.
+
+«Ha deciso che se avesse dovuto seguire l’intera lista per tutto il tempo, sarebbe stato praticamente inutile diventare un Signore Oscuro, tanto per cominciare», disse Harry.
+
+«Precisamente», disse il professor Quirrell. Sorrideva. «Così ho intenzione di violare la regola numero due — che era semplicemente ‘non vantarti’ — e le dirò una cosa che ho fatto. Non vedo come potrebbe nuocerle saperlo. E ho il forte sospetto che l’avrebbe capito in ogni caso, una volta che ci saremo conosciuti abbastanza bene. Eppure… Avrò il suo giuramento di non parlare mai di quello che sto per dire.»
+
+«Ce l’ha!» Harry aveva la sensazione che questo sarebbe stato molto bello.
+
+«Sono abbonato a un bollettino babbano che mi tiene informato sui progressi dei viaggi nello spazio. Non venni a sapere della Pioneer 10 finché non diedero l’annuncio del suo lancio. Ma quando scoprii che anche la Pioneer 11 avrebbe lasciato per sempre il Sistema solare», disse il professor Quirrell, il sorriso più ampio che Harry gli avesse ancora visto, «mi sono introdotto furtivamente nella nasa, sul serio, e ho lanciato un delizioso, piccolo incantesimo sulla placca d’oro che la farà durare più a lungo di quanto non avrebbe fatto altrimenti.»
+
+…
+
+…
+
+…
+
+«Sì», disse il professor Quirrell, che ora sembrava alto quasi dieci metri, «pensavo che avrebbe reagito così.»
+
+…
+
+…
+
+…
+
+«Signor Potter?»
+
+«… non riesco a pensare a nulla da dire.»
+
+«‘Lei ha vinto’ mi sembra appropriato.»
+
+«Lei ha vinto», disse Harry immediatamente.
+
+«Vede? Possiamo solo immaginare in quale gigantesco cumulo di guai si sarebbe ficcato se non fosse stato in grado di dirlo.»
+
+Risero entrambi.
+
+Harry ebbe un altro pensiero. «Non ha aggiunto altre informazioni alla targa, giusto?»
+
+«Altre informazioni?» disse il professor Quirrell, come se l’idea non gli fosse mai venuta e lo intrigasse non poco.
+
+Cosa che rese Harry alquanto sospettoso, considerando che c’era voluto meno di un minuto perché Harry ci pensasse.
+
+«Forse ha inserito un messaggio olografico come in Guerre stellari?» disse Harry. «Oppure… uhm. Un dipinto sembra contenere l’intera informazione di un cervello umano… non può aver aggiunto altra massa alla sonda, ma forse potrebbe aver tramutato una parte esistente in un suo ritratto? O ha trovato un volontario che stava per morire di una malattia terminale, l’ha fatto entrare furtivamente alla nasa, e ha lanciato un incantesimo per essere sicuro che il suo fantasma finisse nella targa –»
+
+«Signor Potter», disse il professor Quirrell, la sua voce improvvisamente tagliente, «un incantesimo che necessitasse della morte di un essere umano sarebbe certamente classificato dal Ministero come Arti Oscure, a prescindere dalle circostanze. Gli studenti non dovrebbero essere sentiti discutere di tali evenienze.»
+
+E la cosa impressionante del modo in cui il professor Quirrell l’aveva detto era quanto perfettamente garantisse una negazione plausibile. Era stata pronunciata nell’esatto tono di qualcuno che non volesse discutere tali argomenti e che pensasse che gli studenti dovessero starne alla larga. Onestamente Harry non sapeva se il professor Quirrell stesse solo aspettando che Harry avesse imparato a proteggere la propria mente.
+
+«Capito», disse Harry. «Non parlerò con nessuno di questa idea.»
+
+«La prego di essere discreto riguardo l’intera faccenda, signor Potter. Preferisco vivere la mia vita senza attrarre l’attenzione pubblica. Non troverà nulla sui giornali riguardo Quirinus Quirrell finché non ho deciso che fosse il momento per me di insegnare Difesa a Hogwarts.»
+
+Sembrò un po’ triste, ma Harry comprese. Poi si accorse delle implicazioni. «Quindi quanta roba fantastica ha fatto che nessuno conosce –»
+
+«Oh, qualcosa», disse il professor Quirrell. «Ma penso che sia già abbastanza per oggi, signor Potter, le confesso che mi sento un po’ stanco –»
+
+«Capisco. E grazie. Per tutto.»
+
+Il professor Quirrell annuì, ma si stava appoggiando pesantemente alla cattedra.
+
+Harry si congedò rapidamente.
+
+
+
