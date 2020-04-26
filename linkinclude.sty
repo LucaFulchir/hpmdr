@@ -1,0 +1,69 @@
+% taken from tex.stackexchange.com and modified.
+% http://tex.stackexchange.com/questions/19949/how-to-make-listings-code-indentation-remain-unchanged-when-copied-from-pdf
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{linkinclude}[2011/06/05 v0.01 LaTeX package for my own purpose]
+\RequirePackage[usenames,dvipsnames]{xcolor}
+
+\RequirePackage{caption}
+\captionsetup
+{
+	font={small,rm},
+	labelfont={bf},
+	justification=justified
+}
+
+\RequirePackage{listings}
+\AtBeginDocument
+{
+	\renewcommand*{\lstlistlistingname}{Code List}
+	\renewcommand*{\lstlistingname}{Code}
+}
+
+%\lstset
+%{
+%	%linewidth=\linewidth,
+%	breaklines=true,
+%	tabsize=3,
+%	showstringspaces=false
+%}
+
+\lstdefinestyle{Common}
+{
+	extendedchars=\true,
+	language={Pascal},
+	morekeywords={let, in, out, event, fun, reduc, type, equation ,free, const, query, process, attacker},
+	%alsolanguage={PSTricks},
+	frame=single,
+	%===========================================================
+	framesep=3pt,%expand outward.
+	framerule=0.4pt,%expand outward.
+	xleftmargin=3.4pt,%make the frame fits in the text area.
+	xrightmargin=3.4pt,%make the frame fits in the text area.
+	%===========================================================
+	rulecolor=\color{Red}
+}
+
+\lstdefinestyle{Proverif}
+{
+	style=Common,
+	%backgroundcolor=\color{Yellow!10},
+	basicstyle=\scriptsize\color{Black}\ttfamily,
+	keywordstyle=\color{Orange},
+	identifierstyle=\color{Black},
+	stringstyle=\color{Red},
+	commentstyle=\color{BlueViolet}
+}
+
+\newcommand{\LinkInclude}[2][style=A]
+{
+	\lstinputlisting[#1,caption={\href{#2}{#2}}]{#2}
+}
+
+%for beamer, use \hypersetup instead.
+%\RequirePackage[colorlinks=true,bookmarksnumbered=true,bookmarksopen=true]{hyperref}
+
+%to make hyperlinks point to the top of figure or table.
+%it must be loaded after hyperref.
+%\RequirePackage[all]{hypcap}% cannot be used in beamer.
+
+\endinput

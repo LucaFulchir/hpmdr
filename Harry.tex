@@ -1,0 +1,152 @@
+
+\def\thudbabelopt{italian,italian}
+%% admissible values: bach, mst, phd.
+%\documentclass[table,target=mst,babel=\babelopt]{thud}
+\documentclass[target=mst]{thud}[2014/03/11]
+
+
+\title{Harry James Potter-Evans-Verres e i metodi della razionalità}
+\author{Eliezer Yudkowsky}
+\course{Informatica}
+\supervisor{Cato Philosophus}
+\cosupervisor{Luca Fulchir}
+\rights{Harry Potter © 1997 Joanne Rowling. \\
+	Harry Potter and the Methods of Rationality © 2010–2015 Eliezer Yukowsky. \\
+	Traduzione italiana © 2013–2018 Cato Philosophus \\
+	(cato.philosophus@gmail.com \href{https://sites.google.com/site/hpeimdr/home}{sites.google.com/site/hpeimdr/home}), \\
+	Rilasciata sotto licenza Creative Commons Attribution-Share Alike 3.0. \\
+	Testo originale della versione in lingua inglese scaricato da \href{https://hpmor.com}{hpmor.com}; \\
+	Formattazione Latex da Luca Fulchir
+	boccino d'oro in prima pagina da \\
+	\href{https://commons.wikimedia.org/wiki/File:Golden_snitch_(cropped).jpg}{commons.wikimedia.org/wiki/File:Golden\_snitch\_(cropped).jpg} \\
+	boccino d'oro a seperatore pagina da:
+	\href{https://www.flickr.com/photos/iamharryfreakingpotter/8175658802}{https://www.flickr.com/photos/iamharryfreakingpotter/8175658802}
+}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx}
+\usepackage[usenames,dvipsnames,table]{xcolor}
+\usepackage{graphicx}
+\usepackage{linkinclude}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{soul}
+\usepackage{caption}
+\usepackage{mwe}
+\usepackage{tikz}
+\usepackage{pgf-umlsd}
+\usetikzlibrary{arrows,shadows,automata,positioning}
+\usepackage{amsmath}
+\usepackage{framed}
+\usepackage{wrapfig}
+\usepackage{mdframed}
+\usepackage{csquotes}
+\usepackage{scrextend}
+\newenvironment{itpars}
+  {\par\itshape}
+  {\par}
+
+%\usepackage[T1]{fontenc}
+\usepackage{lettrine}
+  \renewcommand{\DefaultLoversize}{1}
+  \renewcommand{\DefaultLraise}{0.25}
+  \setlength{\DefaultNindent}{0em}
+\setcounter{DefaultLines}{2}
+
+
+%\newcommand{testchapter}{}
+
+%\captionsetup[figure]{justification=justified,singlelinecheck=false}
+%\begin{wrapfigure}[0]{l}{0.95\textwidth}
+%\vspace{-140pt}
+%\includegraphics[width=0.5\textwidth]{xkcd/#4.png} %#4
+%\caption*{[xkcd.org] #5} %#5
+%\end{wrapfigure}
+%\captionsetup[figure]{justification=justified,singlelinecheck=true}
+%\vspace{-50pt}
+
+
+\makeindex
+
+\begin{document}
+
+\selectlanguage{italian}
+
+\maketitle
+
+%\begin{dedication}random randomness is random..\end{dedication}
+
+%\acknowledgements
+%\abstract
+
+
+\tableofcontents
+
+%\listoftables
+
+%\listoffigures
+
+\mainmatter
+
+\input{Prefazione.tex}
+\input{Messaggio_Autore.tex}
+
+\chapter*{Harry James Potter-Evans-Verres e i Metodi della razionalità}
+
+\input{Cap001.tex}
+\input{Cap002.tex}
+\input{Cap003.tex}
+\input{Cap004.tex}
+\input{Cap005.tex}
+\input{Cap006.tex}
+%\input{Cap007.tex}
+%\input{Cap008.tex}
+%\input{Cap009.tex}
+%\input{Cap010.tex}
+%\input{Cap011.tex}
+%\input{Cap012.tex}
+%\input{Cap013.tex}
+%\input{Cap014.tex}
+%\input{Cap015.tex}
+%\input{Cap016.tex}
+%\input{Cap017.tex}
+%\input{Cap018.tex}
+%\input{Cap019.tex}
+%\input{Cap020.tex}
+%\input{Cap021.tex}
+
+%\appendix
+
+%\input{Appendix.tex}
+
+%% bibliography, analytical index etc...
+\backmatter
+
+%\summary
+%\begin{figure}[h]
+%    \centering
+%    \includegraphics[width=1\textwidth]{paper.png}
+%    \caption{so... yeah... this paper is really about...uh...}
+%    \label{fig:Hope it doesn't happen...}
+%\end{figure}
+
+
+\newpage
+\bibliographystyle{plain_\languagename}
+%% recommended
+
+% xkcd as bibliography title
+%\renewcommand{\chapter}[2]{
+%\begin{figure}[h]
+%    \centering
+%    \includegraphics[width=0.5\textwidth]{xkcd/citogenesis.png}
+%    \caption*{[xkcd.org]}
+%    \label{fig:So standard}
+%\end{figure}}
+%\bibliography{thud}
+%% use `thebibliography' environment for manual bibliography
+
+%\printindex
+
+\end{document}
